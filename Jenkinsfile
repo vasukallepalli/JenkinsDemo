@@ -13,7 +13,7 @@ pipeline {
           echo ('This is Second step in pipeline')
        }
      }
-     stage ('Second') {
+     stage ('Three') {
         when {
           not {
               branch "master"
