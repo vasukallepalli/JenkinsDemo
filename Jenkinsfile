@@ -8,7 +8,7 @@ pipeline {
      }
      stage ('Second') {
        steps {
-         input('Do you want to proceed?)
+         echo ('Do you want to proceed?)
        }
      }
      stage ('Second') {
